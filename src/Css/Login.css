@@ -1,0 +1,38 @@
+.login {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.login > button {
+  width: 300px;
+  background-color: #2b97fd;
+  color: #eff2f5;
+  font-weight: 800;
+}
+
+.login > button:hover {
+  background-color: white;
+  color: #2b97fd;
+  border: 1px solid #2b97fd;
+}
+
+.login > div > img {
+  object-fit: contain;
+  height: 130px;
+  margin-bottom: 13px;
+}
+
+.login > div {
+  display: flex;
+  flex-direction: column;
+}
+
+#fb_text_logo {
+  height: 70px;
+}
+
+#meta_logo {
+  margin-top: 50px;
+  height: 17px;
+}
